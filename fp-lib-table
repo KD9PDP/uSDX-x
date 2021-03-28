@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name uSDX-x)(type KiCad)(uri ${KIPRJMOD}/uSDX-x.pretty)(options "")(descr ""))
+)
