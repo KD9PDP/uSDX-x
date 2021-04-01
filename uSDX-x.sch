@@ -466,7 +466,7 @@ U 1 1 606FBECD
 P 6550 3700
 F 0 "J3" H 6650 3675 50  0000 L CNN
 F 1 "Antenna" H 6650 3584 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 6550 3700 50  0001 C CNN
+F 2 "eec:Molex-73100-0114-0-0-0" H 6550 3700 50  0001 C CNN
 F 3 " ~" H 6550 3700 50  0001 C CNN
 F 4 "no assembly" H 6550 3700 50  0001 C CNN "LCSC"
 	1    6550 3700
@@ -1626,7 +1626,7 @@ U 1 1 61548BAE
 P 11000 5350
 F 0 "J10" H 10850 6250 50  0000 L CNN
 F 1 "1602LCD" H 10750 6150 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 11000 5350 50  0001 C CNN
+F 2 "Display:WC1602A" H 11000 5350 50  0001 C CNN
 F 3 "~" H 11000 5350 50  0001 C CNN
 F 4 "no assembly" H 11000 5350 50  0001 C CNN "LCSC"
 	1    11000 5350
@@ -1855,18 +1855,6 @@ F 4 "C7426" H 5200 5550 50  0001 C CNN "LCSC"
 $EndComp
 Text Notes 600  4650 0    50   ~ 0
 Alternate: FST3253
-$Comp
-L Connector:AudioJack3_SwitchTR J12
-U 1 1 606FED8B
-P 8900 3400
-F 0 "J12" H 8900 3600 50  0000 R CNN
-F 1 "Headphones" H 9050 3650 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 8900 3600 50  0001 C CNN
-F 3 "~" H 8900 3600 50  0001 C CNN
-F 4 "no assembly" H 8900 3400 50  0001 C CNN "LCSC"
-	1    8900 3400
-	-1   0    0    1   
-$EndComp
 Text GLabel 7800 3300 0    50   Input ~ 0
 SIDETONE
 $Comp
@@ -2086,9 +2074,9 @@ L Connector:AudioJack3_SwitchTR J11
 U 1 1 609CAF66
 P 7750 2700
 F 0 "J11" H 7750 2900 50  0000 R CNN
-F 1 "Mic" H 7750 3000 50  0000 R CNN
+F 1 "PJ-324M" H 7850 3000 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 7750 2900 50  0001 C CNN
-F 3 "~" H 7750 2900 50  0001 C CNN
+F 3 "https://store.comet.bg/download-file.php?id=18858" H 7750 2900 50  0001 C CNN
 F 4 "no assembly" H 7750 2700 50  0001 C CNN "LCSC"
 	1    7750 2700
 	1    0    0    1   
@@ -2307,8 +2295,8 @@ $Comp
 L Connector:Conn_01x03_Female J13
 U 1 1 6076E739
 P 9350 6000
-F 0 "J13" H 9378 6026 50  0000 L CNN
-F 1 "PA MOSFETs" V 9500 5700 50  0000 L CNN
+F 0 "J13" H 9250 5800 50  0000 L CNN
+F 1 "PA MOSFETs" V 9450 5700 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 9350 6000 50  0001 C CNN
 F 3 "~" H 9350 6000 50  0001 C CNN
 F 4 "no assembly" H 9350 6000 50  0001 C CNN "LCSC"
@@ -2560,5 +2548,17 @@ F 3 "~" H 10750 1400 50  0001 C CNN
 F 4 "no assembly" H 10750 1400 50  0001 C CNN "LCSC"
 	1    10750 1400
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3_SwitchTR J12
+U 1 1 606FED8B
+P 8900 3400
+F 0 "J12" H 8900 3600 50  0000 R CNN
+F 1 "PJ-324M" H 9000 3650 50  0000 R CNN
+F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 8900 3600 50  0001 C CNN
+F 3 "~" H 8900 3600 50  0001 C CNN
+F 4 "no assembly" H 8900 3400 50  0001 C CNN "LCSC"
+	1    8900 3400
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
